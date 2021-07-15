@@ -1,5 +1,7 @@
 # supermall
 
+coderwhy老师vue项目实战，待完善分类和个人信息页面。
+
 ## Project setup
 ```
 npm install

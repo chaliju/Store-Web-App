@@ -149,7 +149,7 @@ export default {
     contentScroll(position) {
       /*  // 1.判断BackTop是否显示
        this.isShowBackTop = -position.y > BACKTOP_DISTANCE */
-       this.listenShowBackTop(position)
+      this.listenShowBackTop(position)
 
       // 2.决定tabControl是否吸顶（position:fixed)
       this.isTabFixed = (-position.y) > this.tabOffsetTop
@@ -160,33 +160,33 @@ export default {
       this.$refs.scroll.scrollTo(0, 0)
     }, */
     loadMore() {
-    this.getHomeGoods(this.currentType)
-  },
-  swiperImageLoad() {
-    this.tabOffsetTop = this.$refs.tabControl2.$el.offsetTop;
-  },
+      this.getHomeGoods(this.currentType)
+    },
+    swiperImageLoad() {
+      this.tabOffsetTop = this.$refs.tabControl2.$el.offsetTop;
+    },
 
-  // 网络请求相关的方法
-  getHomeMultidata() {
-    getHomeMultidata().then(res => {
-      // console.log(res);
-      this.banners = res.data.banner.list;
-      this.recommends = res.data.recommend.list;
-    })
-  },
-  getHomeGoods(type) {
-    const page = this.goods[type].page + 1
-    getHomeGoods(type, page).then(res => {
-      // console.log(res);
-      // 把拿到的数据放到定义好的list中
-      this.goods[type].list.push(...res.data.list)
-      this.goods[type].page += 1
+    // 网络请求相关的方法
+    getHomeMultidata() {
+      getHomeMultidata().then(res => {
+        // console.log(res);
+        this.banners = res.data.banner.list;
+        this.recommends = res.data.recommend.list;
+      })
+    },
+    getHomeGoods(type) {
+      const page = this.goods[type].page + 1
+      getHomeGoods(type, page).then(res => {
+        // console.log(res);
+        // 把拿到的数据放到定义好的list中
+        this.goods[type].list.push(...res.data.list)
+        this.goods[type].page += 1
 
-      // 完成上拉加载更多
-      this.$refs.scroll.finishPullUp()
-    })
+        // 完成上拉加载更多
+        this.$refs.scroll.finishPullUp()
+      })
+    }
   }
-}
 }
 </script>
 
@@ -201,6 +201,7 @@ export default {
 .home-nav {
   background-color: var(--color-tint);
   color: #fff;
+  font-weight: 700;
 
   /* 在使用浏览器原生滚动时，为了让导航栏不随之一起滚动而设置
   position: fixed;

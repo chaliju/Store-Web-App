@@ -37,11 +37,11 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 首页主要展示了轮播图、推荐信息、本周流行和首页商品的分类推荐，还实现了一键回到顶部的功能，页面的滚动用better-scroll实现，此外还对数据的加载进行了懒加载的处理。
 
-![image-20210813131956198](D:\1-upup\web\myself-note\vuejs\day01\code\19 supermall\supermall\vue-store\image\image-20210813131956198.png)
+![image-20210813131956198](https://github.com/chaliju/vue-store/blob/master/image/image-20210813131956198.png)
 
-![image-20210813132017610](D:\1-upup\web\myself-note\vuejs\day01\code\19 supermall\supermall\vue-store\image\image-20210813132017610.png)
+![image-20210813132017610](https://github.com/chaliju/vue-store/blob/master/image/image-20210813132017610.png)
 
-![image-20210813132939799](D:\1-upup\web\myself-note\vuejs\day01\code\19 supermall\supermall\vue-store\image\image-20210813132939799.png)
+![image-20210813132939799](https://github.com/chaliju/vue-store/blob/master/image/image-20210813132939799.png)
 
 ### 2.详情页
 

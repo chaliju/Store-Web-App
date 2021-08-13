@@ -73,5 +73,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 
-**以上就是关于项目内容的简单介绍，谢谢您的查看，感兴趣就也试试吧**
+**以上就是关于项目内容的简单介绍，谢谢您的查看，感兴趣也试试吧**
 

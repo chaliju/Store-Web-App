@@ -37,39 +37,39 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 首页主要展示了轮播图、推荐信息、本周流行和首页商品的分类推荐，还实现了一键回到顶部的功能，页面的滚动用better-scroll实现，此外还对数据的加载进行了懒加载的处理。
 
-![image-20210813131956198](C:\Users\chaliju\AppData\Roaming\Typora\typora-user-images\image-20210813131956198.png)
+![image-20210813131956198](D:\1-upup\web\myself-note\vuejs\day01\code\19 supermall\supermall\vue-store\image\image-20210813131956198.png)
 
-![image-20210813132017610](C:\Users\chaliju\AppData\Roaming\Typora\typora-user-images\image-20210813132017610.png)
+![image-20210813132017610](D:\1-upup\web\myself-note\vuejs\day01\code\19 supermall\supermall\vue-store\image\image-20210813132017610.png)
 
-![image-20210813132939799](C:\Users\chaliju\AppData\Roaming\Typora\typora-user-images\image-20210813132939799.png)
+![image-20210813132939799](D:\1-upup\web\myself-note\vuejs\day01\code\19 supermall\supermall\vue-store\image\image-20210813132939799.png)
 
 ### 2.详情页
 
 点击任一商品的图片或介绍即可进入详情页，详情页展示了商品的基本信息、店铺信息、参数、评论和相似推荐的功能，标题能与内容一一对应，点击即可跳转。点击页面的”加入购物车”即可加入购入车，加入购物车时还会有弹窗提示，若是新加入的商品则提示，若是已存在的商品则提示“当前的商品数量+1”添加了新的商品“。页面中也加入了一键回到顶部的功能，页面滚动也通过better-scroll来进行实现。
 
-![image-20210813133722524](C:\Users\chaliju\AppData\Roaming\Typora\typora-user-images\image-20210813133722524.png)
+![image-20210813133722524](D:\1-upup\web\myself-note\vuejs\day01\code\19 supermall\supermall\vue-store\image\image-20210813133722524.png)
 
-![image-20210813133807139](C:\Users\chaliju\AppData\Roaming\Typora\typora-user-images\image-20210813133807139.png)
+![image-20210813133807139](D:\1-upup\web\myself-note\vuejs\day01\code\19 supermall\supermall\vue-store\image\image-20210813133807139.png)
 
 ### 3.分类页面
 
 分类页面对商品的大分类及每个大类下面的小类进行了展示，品类之间能够实现分别的跳转。
 
-![image-20210813133926796](C:\Users\chaliju\AppData\Roaming\Typora\typora-user-images\image-20210813133926796.png)
+![image-20210813133926796](D:\1-upup\web\myself-note\vuejs\day01\code\19 supermall\supermall\vue-store\image\image-20210813133926796.png)
 
 ### 4.购物车页面
 
 点击了“加入购物车”的商品会被加入到购物车中，购物车对这些商品进行了简单的展示，对于选中的商品还能计算合计价格，还能实现全选的功能。
 
-![image-20210813134749306](C:\Users\chaliju\AppData\Roaming\Typora\typora-user-images\image-20210813134749306.png)
+![image-20210813134749306](D:\1-upup\web\myself-note\vuejs\day01\code\19 supermall\supermall\vue-store\image\image-20210813134749306.png)
 
-![image-20210813134819733](C:\Users\chaliju\AppData\Roaming\Typora\typora-user-images\image-20210813134819733.png)
+![image-20210813134819733](D:\1-upup\web\myself-note\vuejs\day01\code\19 supermall\supermall\vue-store\image\image-20210813134819733.png)
 
 ### 5.个人信息页面
 
 个人信息页面是一个静态的页面，对头像、登录、余额、优惠等进行了展示。
 
-![image-20210813134435982](C:\Users\chaliju\AppData\Roaming\Typora\typora-user-images\image-20210813134435982.png)
+![image-20210813134435982](D:\1-upup\web\myself-note\vuejs\day01\code\19 supermall\supermall\vue-store\image\image-20210813134435982.png)
 
 
 

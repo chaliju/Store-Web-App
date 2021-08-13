@@ -4,7 +4,7 @@ export function request(config) {
   // 1.创建axios的实例
   const instance = axios.create({
     // 真实接口请联系coderwhy老师
-    baseURL: 'http://152.136.185.210:7878/api/m5',
+    baseURL: 'xxx',
     timeout: 5000
   })
 
